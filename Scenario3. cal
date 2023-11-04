@@ -1,0 +1,28 @@
+ package scenario3;
+
+import java.util.Scanner;
+
+public class Scenario3 {
+    private static int c;
+
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter first number: ");
+        double a = sc.nextDouble();
+        System.out.println("Enter second number: ");
+        double b = sc.nextDouble();
+        																	//Scenario 4
+        
+       double c;
+        c= a+b;
+      
+        	System.out.println("the first number"+a);
+       
+        	System.out.println("your second number"+b);
+                 
+                System.out.println("the total is"+c);
+	
+        }
+}
+
